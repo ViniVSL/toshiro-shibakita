@@ -5,15 +5,12 @@
 <body>
 
 <?php
-// Erros e charset
 ini_set("display_errors", 1);
 header('Content-Type: text/html; charset=iso-8859-1');
 
-// Versão do PHP
 echo 'Versao Atual do PHP: ' . phpversion() . '<br>';
 
-// Conexão com MySQL
-$servername = "db"; // MySQL no Docker
+$servername = "db";
 $username = "root";
 $password = "Senha123";
 $database = "meubanco";
